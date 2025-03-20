@@ -1,4 +1,4 @@
-# feature-sdk-kotlin
+# guard-sdk-kotlin
 
 Step 1: Get the SDK
 
