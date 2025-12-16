@@ -13,7 +13,7 @@ Note: The Maven repository address needs to be configured in both 'buildscript' 
 
 (2) If you are using Gradle for integration, add the following code to your project's build.gradle:
 ```kotlin
-implementation 'dev.deeplink:guard:2.1.9'
+implementation 'dev.deeplink:guard:2.3.0'
 ```
 
 Step 2: Initialize the SDK
