@@ -21,7 +21,7 @@ class TestApplication : Application() {
         //[require] Call this method to start the keep-alive service when the application is created.
         // If the check interval is passed in, the keep-alive service will check whether the process is alive according to the passed interval.
         // It is recommended not to set the interval too short to avoid excessive power consumption.
-        GuardManager.launch(this, 10 * 60 * 1000L)
+        GuardManager.launch(this, "ACCOUNT_ID", "DEV_TOKEN", 10 * 60 * 1000L)
 
         if (getProcessName(this) == this.packageName) {
             ProcessLifecycleOwner.get().lifecycle.addObserver(object : DefaultLifecycleObserver {
